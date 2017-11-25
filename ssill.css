@@ -1,0 +1,123 @@
+.overall{
+  position: relative;
+  color: #1d2f43;
+  margin: 20px 80px 52px 80px;
+}
+.navigationBarUl{
+background-color:#181818;
+overflow:hidden;
+padding-top: 15px;
+padding-bottom:15px;
+padding-left: 60px;
+}
+.navigationBarUl li{
+  margin:0;
+  float:left;
+  display: block;
+  text-decoration: none;
+}
+.navigationBarUl a{
+  color:white;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 20px;
+}
+.navigationBarUl a:hover{
+background-color:#445873;
+color: white
+}
+.start{
+  padding-bottom: 30px;
+  padding-top: 230px;
+  padding-left:80px;
+  padding-right:80px;
+  background-image: url("ill.png"); 
+  background-size: cover;
+  background-color: grey;
+}
+.start h1{
+  font-size: 80px;
+  color: white;
+}
+.start h4{
+  font-size: 20px;
+  color:white
+}
+.contact h1{
+	margin-top: 40px;
+}
+.illustration p{
+	margin-top: 40px;
+}
+.intro {
+	padding-bottom: 40px; 
+}
+.window {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    padding-top: 150px; 
+	padding-bottom:150px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* Modal Content */
+.window-content {
+    background-color: #ffffff;
+    margin: auto;
+    padding: 30px;
+    border: 2px solid #92a9c5;
+    width: 75%;
+}
+.window-content h1{
+	font-size: 40px;
+}
+
+/* The Close Button */
+.close {
+    color: #92a9c5;
+    float: right;
+    margin-top: -20px;
+    margin-right:-10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #233143;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.art {
+    margin: 5px;
+    border: 2px solid #354455;
+    width: 180px;
+}
+
+.art:hover {
+    border: 2px solid #5e8bac;
+}
+
+.art input {
+    width: 100%;
+    height: 100%;
+	border: 1px solid #354455;
+}
+
+.art button{
+    padding: 5px;
+    text-align: center;
+	text-decoration: none;
+	background: none; 
+	border: none;
+	margin-left: 22px;
+}
+
