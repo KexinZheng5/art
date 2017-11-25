@@ -67,7 +67,6 @@ color: white
     background-color: rgba(0,0,0,0.5);
 }
 
-/* Modal Content */
 .window-content {
     background-color: #ffffff;
     margin: auto;
@@ -79,7 +78,6 @@ color: white
 	font-size: 40px;
 }
 
-/* The Close Button */
 .close {
     color: #92a9c5;
     float: right;
@@ -100,6 +98,7 @@ color: white
     margin: 5px;
     border: 2px solid #354455;
     width: 180px;
+	background-color: #354455;
 }
 
 .art:hover {
@@ -115,6 +114,7 @@ color: white
 .art button{
     padding: 5px;
     text-align: center;
+	color: white;
 	text-decoration: none;
 	background: none; 
 	border: none;
